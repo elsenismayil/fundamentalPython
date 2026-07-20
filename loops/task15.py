@@ -10,7 +10,6 @@ for k in a:
     print(k)
 
 
-
 num = [0, 1]
 
 for t in range(8):
