@@ -5,12 +5,20 @@ for i in range(1,b+1):
     faktoryal = faktoryal*i
     a.append(faktoryal)
 print(a[-1])
-# *******************************
+# **********************************
 ent =int(input("enter"))
 f = 1
 for k in range(1,ent+1):
     f = f*k
 
 print(f"{ent}!={f}")
+# **********************************
+d =int(input("enter"))
+m=1
+i=2
+while i<=d:
+  m=i*m
+  i+=1
+print(f"{d}!={m}")
 
 
