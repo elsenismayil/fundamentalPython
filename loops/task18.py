@@ -20,5 +20,3 @@ while i<=d:
   m=i*m
   i+=1
 print(f"{d}!={m}")
-
-
