@@ -8,7 +8,7 @@ while True:
            break
     if prime is True:
         umi.append(count)
-    if int(umi[-1])>=10000:
+    if int(umi[-1])>10000:
        break
     count +=1
 print(umi)
